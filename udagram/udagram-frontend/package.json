@@ -30,6 +30,7 @@
     "zone.js": "~0.9.1"
   },
   "devDependencies": {
+    "assert":"latest",
     "ajv": "^7",
     "@angular-devkit/architect": "latest",
     "@angular-devkit/build-angular": "latest",
