@@ -64,6 +64,8 @@ jobs:
           # TODO: Install, build, deploy in both apps
           command: |
             echo "# TODO: Install, build, deploy in both apps"
+            sudo apt-get -y -qq update
+            sudo apt-get install python3-pip python3-dev build-essential
             npm run deploy
             
 workflows:
