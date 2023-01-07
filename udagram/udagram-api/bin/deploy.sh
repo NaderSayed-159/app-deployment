@@ -1,5 +1,5 @@
 eb init udagram --region us-east-1 --platform node.js
 eb create --sample udagram-env
 eb use udagram-env
-eb setenv POSTGRES_USERNAME=postgres POSTGRES_PASSWORD=postgres POSTGRES_DB=udagram POSTGRES_HOST=database-1.cjetexzbx0hp.us-east-1.rds.amazonaws.com AWS_REGION=us-east-1 AWS_BUCKET=myfrontbackfwd AWS_PROFILE=default URL=http://udagram-env.eba-ybyw3gv9.us-east-1.elasticbeanstalk.com/ PORT=1596
+eb setenv POSTGRES_USERNAME=$POSTGRES_USERNAME POSTGRES_PASSWORD=$POSTGRES_PASSWORD POSTGRES_DB=$POSTGRES_DB POSTGRES_HOST=$POSTGRES_HOST AWS_REGION=$AWS_DEFAULT_REGION AWS_BUCKET=$AWS_BUCKET AWS_PROFILE=default URL=$URL PORT=$PORT
 eb deploy || eb deploy udagram-env
