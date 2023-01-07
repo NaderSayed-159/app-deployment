@@ -1,6 +1,7 @@
 {
     "scripts": {
         "frontend:install": "cd udagram/udagram-frontend && npm install --legacy-peer-deps",
+        "frontend:clean": "cd udagram/udagram-frontend && npm run clean",
         "frontend:lint": "cd udagram/udagram-frontend && npm run lint --fix",
         "frontend:test": "cd udagram/udagram-frontend && npm run test",
         "frontend:e2e": "cd udagram/udagram-frontend && npm run e2e",

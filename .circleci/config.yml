@@ -36,6 +36,12 @@ jobs:
           command: |
             echo "Lint the frontend"
             npm run frontend:lint
+      #clean the front end app
+      - run:
+       name: Back-End Clean
+       command: |
+            echo "Build the backend app"
+            npm run frontend:clean
       # Build the frontend app
       - run:
           name: Front-End Build
