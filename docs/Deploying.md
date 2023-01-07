@@ -14,20 +14,22 @@
 * Building Poject
 * Deploy the project
 
-## Manual Deployment 
+## Manual Deployment
 
 * By running Deploy script on root folder will run deploy script form each front & back
 * using script file in bin folder which contains deployment Scripts
 
 ## CircleCi
 
-### Pipline Process 
+### Pipline Process
 
 * Build
   * Install Front-End Dependencies
   * Install API Dependencies
   * Front-End Lint
   * Front-End Build
+  * Api clean
+  * API compiling ts
   * API Build
 * Holding Stage waiting for deployment approval
 * Deploy
